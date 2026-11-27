@@ -81,10 +81,14 @@
 
 .header__address {
   margin: 0;
-  color: #838383;
+  color: #656565;
 }
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #6b6b6b;
   padding: 100px 0 140px;
 }
 .staff__title {
@@ -127,7 +131,7 @@
 .card {
   background-color: #ffffff;
   width: 360px;
-  height: 420px;
+  min-height: 420px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
   border-radius: 6px;
@@ -143,12 +147,12 @@
   margin: 0;
   font-size: 16px;
   line-height: 22px;
-  font-weight: 540;
+  font-weight: 500;
 }
 
 .card__footer {
   margin: auto 0 0;
   font-size: 13px;
   line-height: 18px;
-  color: #838383;
+  color: #656565;
 }
